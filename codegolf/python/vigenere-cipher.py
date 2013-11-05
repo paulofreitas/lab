@@ -1,0 +1,1 @@
+import sys;k,p=sys.stdin;print''.join(chr(((ord(p[n])+ord(k[n%(len(k)-1)]))%26)+65)for n in range(len(p)-1))

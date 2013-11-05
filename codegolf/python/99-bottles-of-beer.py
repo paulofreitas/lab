@@ -1,0 +1,2 @@
+_=lambda n:'%s bottle%s of beer on the wall'%(n or 99,'s'*(n!=1))
+for n in range(99,0,-1):print _(n)+',',_(n)[:-12]+'.\n'+('Take one down and pass it around,','Go to the store and buy some more,')[n<2],_(n-1)+'.\n'

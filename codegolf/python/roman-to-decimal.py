@@ -1,0 +1,1 @@
+s=raw_input();t=dict(M=1000,D=500,C=100,L=50,X=10,V=5,I=1);print sum((1,-1)[i+1<len(s)and t[s[i+1]]>t[c]]*t[c]for i,c in enumerate(s))

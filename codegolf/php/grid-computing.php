@@ -1,0 +1,1 @@
+<?for($i=0;$n=fread(STDIN,3);){$o[floor($i/10)+10]+=$n;$o[$i++%10]+=$n;}echo max($o);

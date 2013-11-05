@@ -1,0 +1,1 @@
+import sys;l=[map(int,d.split())for d in sys.stdin];print max(sum(n)for n in zip(*l)+l)

@@ -1,0 +1,1 @@
+h,m=map(int,raw_input().split(':'));p='8471d0f1d478xmho';i=lambda k:(k*2,11+k%6*-2)[k>5];Q=[0]*12;Q[i(h%12)]=1;Q[i(m/5)]|=2;print''.join(int(x,16)*' '+p[~y]+'\n'*(g%10==0)+'\n\n'*(~g%2and g%10!=0)for x,y,g in zip(p,Q,range(12)))

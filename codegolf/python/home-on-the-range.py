@@ -1,0 +1,1 @@
+import re;print re.sub('-(\d+-)+','-',reduce(lambda x,y:x+(', ','-')[`int(re.split('\D+',x)[-1])+1`==y]+y,raw_input().split())+'.')

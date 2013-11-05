@@ -1,0 +1,1 @@
+<?list($x,$y)=fgetcsv(STDIN);for($r=1,$n=0;$n<$y;$r*=($x-$n)/($y-$n++));echo$r;

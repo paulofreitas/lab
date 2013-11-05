@@ -1,0 +1,1 @@
+x,y=input();print reduce(lambda a,b:a*(x-b)/(b+1),range(y),1)
